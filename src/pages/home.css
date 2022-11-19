@@ -1,0 +1,72 @@
+@media screen and (max-width: 480px) {
+   .home-container{
+      position: relative;
+      height: 100vh;
+      /* background-color: aqua; */
+      padding: 2rem 0;
+   }
+
+   .home-intro{
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 0;
+      /* background-color: red; */
+   }
+
+   .home-intro p:nth-child(1){
+      font-size: 25px;
+      color: black;
+      font-weight: 800;
+      margin-bottom: 1rem;
+   }
+
+   .home-intro p:nth-child(2){
+      font-size: 40px;
+      color: black;
+      font-weight: 800;
+      margin-bottom: .4rem;
+   }
+   .home-intro p:nth-child(3){
+      font-size: 23px;
+      color: black;
+      font-weight: 800;
+   }
+
+
+   .home-hero-img{
+      background-color: aqua;
+      height: 50vh;
+      width: 100%;
+   }
+
+   .home-hero-img img{
+      height: 100%;
+      width: 100%;
+   }
+
+   .home-btn{
+      position: absolute;
+      /* background-color: green; */
+      bottom: 10%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   .home-btn a button{
+      width: 100%;
+      font-size: 30px;
+      padding: 1.5rem;
+      font-weight: 800;
+      transition: .1s ease-in-out;
+   }
+
+   .home-btn a button:hover{
+      color: red;
+      background-color: #fff;
+      border: 1px solid red;
+   }
+}
